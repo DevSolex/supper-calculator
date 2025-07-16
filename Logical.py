@@ -58,3 +58,14 @@ second_number = input("second number:")
 expo = float(first_number) ** float(second_number)
 print(f"{first_number} ** {second_number} = {expo:.2f}")
 
+print('''***********************
+floor division
+********************************
+Enter two numbers to get exponential''')
+#prompt a user for a number and store it
+first_number = input("first number:")
+#prompt the user for nuber and store it
+second_number = input("second number:")
+floor = float(first_number) // float(second_number)
+print(f"{first_number} // {second_number} = {floor:.2f}")
+
