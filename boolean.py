@@ -19,7 +19,7 @@ thirdVariable = ""
 forthVariable = False
 print(bool(thirdVariable))
 print(forthVariable)
-'''
+
 
 number_one = 0
 number_two = ""
@@ -30,3 +30,7 @@ number_three = -1
 number_four = 0.5
 print(bool(number_three))
 print(bool(number_four))
+'''
+
+
+
