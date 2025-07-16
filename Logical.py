@@ -5,6 +5,8 @@ print('''welcome to our simple calculator
 2. Subtraction
 3. Multiplication
 4. Division
+5. Exponential
+6. Floor division
 ********************************''')
 print("Enter two numbers to add")
 #prompt a user for a number and store it
