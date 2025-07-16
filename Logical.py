@@ -1,5 +1,6 @@
 # a simple calculator app, the program will only handle two numbers
-print('''**********************
+print('''welcome to our simple calculator
+**********************
 1. Addition
 2. Subtraction
 3. Multiplication
@@ -11,7 +12,7 @@ first_number = input("first number:")
 #prompt the user for nuber and store it
 second_number = input("second number:")
 sum = float(first_number) + float(second_number)
-print(f"{first_number} + {second_number} = {sum}")
+print(f"{first_number} + {second_number} = {sum:.2f}")
 
 print('''***********************
 subtraction
@@ -22,7 +23,7 @@ first_number = input("first number:")
 #prompt the user for nuber and store it
 second_number = input("second number:")
 sub = float(first_number) - float(second_number)
-print(f"{first_number} - {second_number} = {sub}")
+print(f"{first_number} - {second_number} = {sub:.2f}")
 
 print('''***********************
 multiplication
@@ -33,5 +34,27 @@ first_number = input("first number:")
 #prompt the user for nuber and store it
 second_number = input("second number:")
 mul = float(first_number) * float(second_number)
-print(f"{first_number} * {second_number} = {mul}")
+print(f"{first_number} * {second_number} = {mul:.2f}")
+
+print('''***********************
+division
+********************************
+Enter two numbers to divide''')
+#prompt a user for a number and store it
+first_number = input("first number:")
+#prompt the user for nuber and store it
+second_number = input("second number:")
+div = float(first_number) / float(second_number)
+print(f"{first_number} / {second_number} = {div:.2f}")
+
+print('''***********************
+exponential
+********************************
+Enter two numbers to get exponential''')
+#prompt a user for a number and store it
+first_number = input("first number:")
+#prompt the user for nuber and store it
+second_number = input("second number:")
+expo = float(first_number) ** float(second_number)
+print(f"{first_number} ** {second_number} = {expo:.2f}")
 
